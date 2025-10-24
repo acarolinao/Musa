@@ -2,13 +2,13 @@
 This repository contains the scripts in bash and R used in chapters 2 and 3 of the thesis: Species-wide diversity of Musa spp. NLR genes and their distinct response to Fusarium TR4 infection submited the 30th of September of 2025
 
 ## 🗂️ Table of Contents
-- [Musa diversity genotypic characterization] (#1musa-diversity-genotypic-characterization)
+- [Musa diversity genotypic characterization] (#-musa-diversity-genotypic-characterization)
 - [SNP NLRs](# 2. Extraction of SNP NLRs)
 - [De Novo Assemblies](# 3. De Novo Assemblies )
 - [Annotation Pipeline](# 4. Annotation Pipeline)
 
 ***
-# 1. Musa diversity genotypic characterization  
+# Musa diversity genotypic characterization  
 
 A diversity panel of 201 accesions was genotyped with a SNP-based variant calling used for principal component anaylsis (pca), phylogeny and population structure. The reference genome of Musa acuminata spp malaccensis (DH-Pahang) v4 published in 2021 (https://www.nature.com/articles/s42003-021-02559-3) was used to align the reads of the accesions in the panel for the variant calling.
 
