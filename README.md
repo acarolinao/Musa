@@ -12,6 +12,9 @@ A diversity panel of 201 accesions was genotyped with a SNP-based variant callin
 
 # 4. Annotation Pipeline
 
+<img width="4927" height="2429" alt="image" src="https://github.com/user-attachments/assets/5901f554-9c72-4f78-a98c-365e6e405478" />
+
+
 # 5. NLR Ortholog clustering and NLR arquictecture: 
 
 # 6. Musa NLRome Characterization: 
