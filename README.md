@@ -2,7 +2,7 @@
 This repository contains the scripts in bash and R used in chapters 2 and 3 of the thesis: Species-wide diversity of Musa spp. NLR genes and their distinct response to Fusarium TR4 infection submited the 30th of September of 2025
 
 ## 🗂️ Table of Contents
-- [Musa diversity genotypic characterization] (#-musa-diversity-genotypic-characterization)
+- [Jump to Musa diversity section](#musa-diversity-genotypic-characterization)
 - [SNP NLRs](# 2. Extraction of SNP NLRs)
 - [De Novo Assemblies](# 3. De Novo Assemblies )
 - [Annotation Pipeline](# 4. Annotation Pipeline)
