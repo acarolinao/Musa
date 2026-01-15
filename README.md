@@ -3,9 +3,9 @@ This repository contains the scripts in bash and R used in chapters 2 and 3 of t
 
 ## 🗂️ Table of Contents
 - [Musa diversity genotypic characterization](#1-musa-diversity-genotypic-characterization)
-- [SNP NLRs](# 2. Extraction of SNP NLRs)
-- [De Novo Assemblies](# 3. De Novo Assemblies )
-- [Annotation Pipeline](# 4. Annotation Pipeline)
+- [SNP NLRs](#2-Extraction-of-SNP-NLRs)
+- [De Novo Assemblies](#3-De-Novo-Assemblies)
+- [Annotation Pipeline](#4-Annotation-Pipeline)
 
 ***
 # 1. Musa diversity genotypic characterization  
