@@ -6,6 +6,8 @@ This repository contains the scripts in bash and R used in chapters 2 and 3 of t
 - [SNP NLRs](#2-Extraction-of-SNP-NLRs)
 - [De Novo Assemblies](#3-De-Novo-Assemblies)
 - [Annotation Pipeline](#4-Annotation-Pipeline)
+- [NLR Ortholog clustering and NLR arquictecture](#5-NLR-Ortholog-clustering-and-NLR-arquictecture)
+- [Musa NLRome Characterization](#6-Musa-NLRome-Characterization)
 
 ***
 # 1. Musa diversity genotypic characterization  
@@ -21,8 +23,8 @@ A diversity panel of 201 accesions was genotyped with a SNP-based variant callin
 <img width="4927" height="2429" alt="image" src="https://github.com/user-attachments/assets/5901f554-9c72-4f78-a98c-365e6e405478" />
 
 
-# 5. NLR Ortholog clustering and NLR arquictecture: 
+# 5. NLR Ortholog clustering and NLR arquictecture 
 
-# 6. Musa NLRome Characterization: 
+# 6. Musa NLRome Characterization 
 
 
