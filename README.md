@@ -3,7 +3,6 @@ This repository contains the scripts in bash and R used in chapters 2 and 3 of t
 
 ## 🗂️ Table of Contents
 - [Musa diversity genotypic characterization](#1-musa-diversity-genotypic-characterization)
-- [Extraction of SNP NLRs](#2-Extraction-of-SNP-NLRs)
 - [De Novo Assemblies](#3-De-Novo-Assemblies)
 - [Annotation Pipeline](#4-Annotation-Pipeline)
 - [NLR Ortholog clustering and NLR arquictecture](#5-NLR-Ortholog-clustering-and-NLR-arquictecture)
@@ -43,9 +42,11 @@ Sorting and duplicated reads identification was performed with Samtools sort v1.
 
 The populations structure was estimated with STRUCTURE v2.3.5, the filtered VCF file was thinned further with BCFtools, keeping one SNP every 50 bp (--thin 50), and the VCF was transformed to a structure file (11_VCFto_STRUCTURE.sh). The admixture model was run with a burn-in period of 10,000, with 50,000 MCMC iterations and a maximum of ten founder populations (K 2 to 10). Twenty independent runs for each population K were simulated (12_run_STRUCTURE.sh) and ten random replicated Q-matrixes were aligned with POPHELPER in R. A delta K (ΔK) was calculated using the Evanno method in POPHELPER to identify the most likely number of clusters in the panel (13_pophelper_structure_NLR_extraction_miss50.R). The filtered VCF was also used for principal component analysis (PCA) using Tassel v5.2.96. The R package ggplot2 was used to plot the PCA results. The packages ggfortify and concaveman were used to improve the information and aesthetics of the PCA (14_tassel_pca_prcopm_SNP_NLR_AA_v4.R). The phylogenetic tree was built with SNPrelate in R using the functions identity-by-descent (snpgfdsIBD) and hierarchical clustering (snpgdsHCluster) and the results were plotted using iTOL.
 
-</div>
+## SNP NLRs population structure
 
-# 2. Extraction of SNP NLRs  
+The SNPs present in the nucleotide-binding leucine-rich immune receptors (NLRs) where extracted from the whole genome SNP call to determine their distribution and if they follow the same evolutionary history of the accesions in each varietal group (NLR-Annotator v2 [NLR-Annotator]([https://github.com](https://github.com/steuernb/NLR-Annotator)). 
+
+</div>
 
 # 3. De Novo Assemblies  
 
