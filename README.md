@@ -50,7 +50,7 @@ The filtered VCF was also used for principal component analysis (PCA) using Tass
 
 The SNPs present in the nucleotide-binding leucine-rich immune receptors (NLRs) where extracted from the whole genome SNP call to determine their distribution and if they follow the same evolutionary history of the accesions in each varietal group. 
 
-NLR-Annotator v2 ([NLR-Annotator]([https://github.com](https://github.com/steuernb/NLR-Annotator)) was used to discover the NLR loci present in the AA_v4 (14_NLR-Annotator_3scripts.sh). The BED file from NLR-Annotator with the genomic positions of the NLR loci was used as target in BCFtools to extract the SNP of the NLRs from the SNP call filtered for read quality and read depth (15_SNP_NLRextraction.sh). Sites with over 50% of missing accesions where removed. Population structure for the SNP NLRs was created with PCA (13_tassel_pca_prcopm_SNP_NLR_AA_v4.R), STRUCTURE (16_VCFto_STRUCTURE.sh, 12_run_STRUCTURE.sh) and POPHELPER (17_pophelper_structure_NLR_extraction_miss50.R).
+[NLR-Annotator](https://github.com/steuernb/NLR-Annotator) v2 was used to discover the NLR loci present in the AA_v4 (14_NLR-Annotator_3scripts.sh). The BED file from NLR-Annotator with the genomic positions of the NLR loci was used as target in BCFtools to extract the SNP of the NLRs from the SNP call filtered for read quality and read depth (15_SNP_NLRextraction.sh). Sites with over 50% of missing accesions where removed. Population structure for the SNP NLRs was created with PCA (13_tassel_pca_prcopm_SNP_NLR_AA_v4.R), STRUCTURE (16_VCFto_STRUCTURE.sh, 12_run_STRUCTURE.sh) and POPHELPER (17_pophelper_structure_NLR_extraction_miss50.R).
 
 </div>
 
